@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Master of Illusion</string>
+    
+    <!-- Auth -->
+    <string name="login">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="password_confirm">Подтвердите пароль</string>
+    <string name="display_name">Отображаемое имя</string>
+    <string name="logout">Выйти</string>
+    
+    <!-- Navigation -->
+    <string name="albums">Альбомы</string>
+    <string name="news">Новости</string>
+    <string name="gallery">Галерея</string>
+    <string name="chat">Чат</string>
+    <string name="profile">Профиль</string>
+    
+    <!-- General -->
+    <string name="loading">Загрузка...</string>
+    <string name="error">Ошибка</string>
+    <string name="retry">Повторить</string>
+    <string name="refresh">Обновить</string>
+    <string name="send">Отправить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    
+    <!-- Player -->
+    <string name="play">Воспроизвести</string>
+    <string name="pause">Пауза</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+</resources>
