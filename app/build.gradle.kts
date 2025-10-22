@@ -19,8 +19,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "API_BASE_URL", "\"https://moi-band.com.ua/api/v1\"")
-        buildConfigField("String", "BASE_URL", "\"https://moi-band.com.ua\"")
+        buildConfigField("String", "API_BASE_URL", "\"https://www.moi-band.com.ua/api/v1\"")
+        buildConfigField("String", "BASE_URL", "\"https://www.moi-band.com.ua\"") // <--- Добавили WWW
     }
 
     buildTypes {
@@ -78,6 +78,7 @@ dependencies {
     
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.7.5")
+    implementation("androidx.compose.material:material-icons-extended")
     
     // Hilt DI
     implementation("com.google.dagger:hilt-android:2.48")
